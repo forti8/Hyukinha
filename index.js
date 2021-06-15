@@ -1,4 +1,4 @@
-const token ='ODM4OTE4MDIyMDQzMDA5MDk1.YJCFSg.ejRdOHnm0iWr5v2qxW_QBMSFWGY';
+const token 'token';
  
 
 const express = require('express');
