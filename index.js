@@ -129,24 +129,3 @@ client.on('message', message => {
   }
 });
 
-client.on('dm', message => {
-  if (message.content === ' ')
-  {
-    if (message.author.bot !== null) {
-      dm.send('**não mande mensagem direta para mim seu bot maluco**')
-    }
-    
-    if (message.author.bot == null) {
-      
-    
-    
-    dm.send('**não mande mensagem direta para @hyukinha**')
-    message.react('🚫');
-  }
-}});
-
-
-const hyukinha = 'amado por todos futuro rei dos progamadores';
-
-console.log(hyukinha)
-
