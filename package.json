@@ -1,0 +1,22 @@
+{
+  "name": "Sempaibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commands": "0.0.7",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "init": "^0.1.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
