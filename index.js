@@ -117,14 +117,14 @@ client.on('raw', console.log);
 
 client.on('message', message => {
   if (message.content === '+help') {
-     message.dm.send('**on commands:**```+ping``````+join``````+leave``````+i ou +invite```')
+     message.channel.send('**on commands:**```+ping``````+join``````+leave``````+i ou +invite```')
      message.react('📌');
   }
 });
 
 client.on('message', message => {
   if (message.content === '+ajuda') {
-     message.dm.send('**comandos ativos:**```+ping``````+join``````+leave``````+i ou +invite```');
+     message.channel.send('**comandos ativos:**```+ping``````+join``````+leave``````+i ou +invite```');
      message.react('📌');
   }
 });
