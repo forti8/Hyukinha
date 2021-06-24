@@ -1,1 +1,1 @@
-print("te pegando fogo bixo")
+print("ta pegando fogo bixo")
